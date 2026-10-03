@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+header > .container {
+    padding: 40px 20px;
+}
+
+header .container .menu a{
+    font-size: 0.875em; 
+    text-decoration: none;  
+    color: rgb(75, 75, 78);
+    margin: 0 20px; 
+}
+
+header .container .menu a:hover,
+header .container .menu a.active {
+    color: rgb(223, 165, 43);
+    border-bottom: 3px solid #ebb217;  
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+
+header form .d-flex {
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid #ebb217;
+    border-radius: 50px;
+    width: 320px;
+}
+
+header form div input[type="submit"] {
+    width: 19px;
+    height: 19px;
+    background: url(/images/main/search.png) no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+header form div input[type="text"] {
+    border: none;
+    margin-right: 10px;
+}
+
+header form div input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+header .cart {
+    align-items: center;
+}
+
+header .cart div p {
+    font-size: 0.938em;
+    color: #838388;
+}
+
+header .cart div a {
+    font-size: 0.750em;
+    color: rgb(223, 165, 43);
+    text-decoration: none;
+}
+
+header .cart div a:hover {
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 1px solid #ebb217;
+}
