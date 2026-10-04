@@ -95,3 +95,68 @@ header .burger-menu {
     height: 40px;
     margin: 0!important; 
 }
+
+footer {
+    background-color: rgb(75, 75, 78);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .container {
+    align-items: flex-start;
+}
+
+footer .left {
+    align-items: flex-start;
+}
+
+footer .left figure figcaption {
+    color: #f3f3f3;
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 170px;
+}
+
+footer .left nav {
+    margin-left: 100px;
+}
+
+footer .left nav a {
+    display: block;
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 0.875em;
+    margin-bottom: 20px;
+}
+
+footer .left nav a:hover, footer .left nav a.active {
+    color:#ebb217;
+    font-weight: 600;
+}
+
+footer .right form div {
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+footer .right form .d-flex input[type="text"] {
+    padding: 8px 0px;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #f3f3f3;
+    
+}
+
+footer .right form .d-flex input[type="submit"] {
+    width: 30px;
+    height: 30px;
+    background: url(/images/main/search_white.png) no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+footer .rigth > div {
+    align-items: center;
+}
