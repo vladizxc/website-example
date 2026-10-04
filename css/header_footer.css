@@ -89,3 +89,9 @@ header .cart div a:hover {
     cursor: pointer;
     border-bottom: 1px solid #ebb217;
 }
+
+header .burger-menu {
+    display: none;
+    height: 40px;
+    margin: 0!important; 
+}

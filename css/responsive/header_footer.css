@@ -7,5 +7,85 @@
 @media screen and (max-width: 991px) {
     header > .container {
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header > .container > img {
+        margin-right: 35px;
+    }
+
+    header > .container > form {
+        margin-right: 20px;
+    }
+
+    header form .d-flex{ 
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    header form .d-flex{ 
+        width: 335px;
+    }
+
+    header .menu {
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    header > .container > img {
+        margin-right: 200px;
+    }
+    
+    header .burger-menu {
+        display: inline-block;
+    }
+
+    header form .d-flex{ 
+        width: 240px;
+    }
+
+    header .container .menu {
+        display: none;
+       
+    }
+
+    header .container .menu a {
+        display: block;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+
+    header .container .menu a:hover, header .container .menu a.active {
+        border-bottom: none;
+        margin-top: 17px;
+        margin-bottom: 17px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    header form{ 
+        margin-right: 0!important;
+    }
+}
+
+
+@media screen and (max-width: 392px) {
+    header > .container > img {
+        margin-right: 150px;
+    }
+    
+    header .cart {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 328px){
+    header > .container > img {
+        margin-right: 100px;
     }
 }
