@@ -1,0 +1,11 @@
+@media screen and (max-width: 1199px) {
+    header form .d-flex{
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    header > .container {
+        flex-wrap: wrap;
+    }
+}
