@@ -2,6 +2,14 @@
     header form .d-flex{
         width: 270px;
     }
+
+    footer .left {
+        margin-left: 20px;
+    }
+
+    footer .right {
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -21,6 +29,10 @@
     header form .d-flex{ 
         width: 420px;
     }
+
+    footer .right form div {
+        width: 280px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -31,6 +43,23 @@
 
     header .menu {
         margin: 15px 0;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
+    }
+
+    footer .right {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 661px) {
+    footer .left {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -67,6 +96,12 @@
     }
 }
 
+@media screen and (max-width: 460px) {
+    footer .left nav {
+        margin-left: 90;
+    }
+}
+
 @media screen and (max-width: 414px) {
     header form{ 
         margin-right: 0!important;
@@ -81,6 +116,32 @@
     
     header .cart {
         margin-top: 5px;
+    }
+
+    footer .left {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    footer .left nav {
+        margin-left: 0;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .left figure figcaption {
+        margin-left:auto
+    }
+
+    footer .left figure {
+        text-align: center;
+    }
+
+    footer.left figure figcaption {
+        width: auto;
     }
 }
 

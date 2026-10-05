@@ -119,6 +119,7 @@ footer .left figure figcaption {
 
 footer .left nav {
     margin-left: 100px;
+    
 }
 
 footer .left nav a {
@@ -157,6 +158,44 @@ footer .right form .d-flex input[type="submit"] {
     border: none;
 }
 
-footer .rigth > div {
-    align-items: center;
+footer .right > div {
+    text-align: center;
+    font-size: 0.875em;
+    color: #f3f3f3;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+footer .right .box {
+    width: 40px;
+    height: 40px;
+    margin: 16px 16px 0 0;
+    display: inline-block;
+}
+
+footer .right .insta {
+    background: url("/images/main/insta_logo.png") no-repeat;
+    background-size: cover;
+}
+
+footer .right .twit {
+    background: url("/images/main/twitter_logo.png") no-repeat;
+    background-size: cover;
+}
+
+footer .right .tg {
+    background: url("/images/main/tg_logo.png") no-repeat;
+    background-size: cover;
+    margin-right: 0;
+}
+
+footer .right .insta:hover, footer .right .twit:hover, footer .right .tg:hover {
+    cursor: pointer;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 0.750em;
+    color: #f3f3f3;
+    margin-top: 20px;
 }
