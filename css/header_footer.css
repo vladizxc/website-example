@@ -26,7 +26,29 @@ body {
 }
 
 header > .container {
+    height: 100%;
     padding: 40px 20px;
+}
+
+header .logo {
+    position: relative;
+    animation-name: logo-animation;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-delay: 3ms;
+    z-index: 1;
+}
+
+@keyframes logo-animation{
+    0% {
+        width: 100px;
+    }
+    50%{
+        width: 130px;
+    }
+    100% {
+        width: 100px;
+    }
 }
 
 header .container .menu a{
@@ -34,6 +56,7 @@ header .container .menu a{
     text-decoration: none;  
     color: rgb(75, 75, 78);
     margin: 0 20px; 
+    transition: 0.5s all ease;
 }
 
 header .container .menu a:hover,
