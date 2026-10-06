@@ -1,11 +1,10 @@
 .block1 {
     justify-content: left;
     align-items: flex-start;
-   
 }
 
 .block1 .menu {
-    width: 460px;
+    width: 360px;
 }
 
 .block1 .menu a {
@@ -68,7 +67,7 @@
 }
 
 .block1 .items .box figure figcaption {
-    padding-left: 23px;
+    
     color: #4b4b4e;  
 }
 
@@ -84,7 +83,7 @@
 .box figure .title {
     color: #4b4b4e;
     font-size: 0.875em;
-    padding-left: 23px;
+    
     margin-top: 10px;
 }
 

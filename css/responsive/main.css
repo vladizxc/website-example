@@ -1,0 +1,94 @@
+@media screen and (max-width: 1199px){
+
+    .news h2, .adv h2, .sub h2{
+        margin: 50px;
+    }
+
+    .boxes {
+        justify-content: space-around;
+    }
+
+    .news .boxes {
+        flex-wrap: wrap;
+        max-width: 775px;
+        margin: 0 auto;
+    }
+
+    .news .boxes .box {
+        margin-bottom: 20px;
+    }
+
+    .adv > div {
+        display:  block;
+    }
+
+    .adv div p {
+        max-width: none;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .sub h2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .block1 {
+        display: block;
+        text-align: center;
+    }
+
+    .block1 .menu {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .block1 .item .sort p {
+        margin-top: 30px;
+    }
+
+    .boxes .box figure p {
+        text-align: center;
+
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .adv > div div {
+        display: block;
+    }
+
+    .adv div figure {
+        margin-bottom: 20px;
+    }
+
+    .sub form div input[type="submit"] {
+        margin-top: 10px;
+    }
+
+    .sub p:not(.title){
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .block1 .menu {
+        width: 270px;
+    }
+
+    .block1 .items {
+        padding-left: 0;
+    }
+    
+    .news h2, .adv h2, .sub h2{
+        margin: 40px 0;
+        font-size: 1.500em;
+    }
+
+    .sub .title {
+    font-size: 1em;
+}
+}
